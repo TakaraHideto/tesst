@@ -16,6 +16,14 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="absolute bottom-0 mb-16 w-full text-center">
+        <div className="ml-90">
+          <button className="bg-blue-200 hover:bg-blue-800 text-blue-700 font-bold py-1 px-1 rounded">
+            Update
+          </button>
+        </div>
+        <p className="text-5xl font-semibold text-gray-800">TailwindTemplates v2 is here</p>
+      </div>
     </main>
   );
 }
