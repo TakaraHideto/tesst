@@ -6,7 +6,7 @@ export default function Home() {
       <div className="absolute top-0 mt-8 w-full bg-white">
         <div className="max-w-6xl mx-auto px-4">
           <div className="flex justify-between items-center py-4">
-            <p className="text-2xl font-bold text-gray-800">🔀TailwindTemplates</p>
+            <p className="text-2xl font-bold text-gray-800">TailwindTemplates</p>
             <nav className="flex space-x-20">
               <a href="#" className="text-gray-600 hover:text-gray-800">Templates</a>
               <a href="#" className="text-gray-600 hover:text-gray-800">Resources</a>
@@ -23,6 +23,9 @@ export default function Home() {
           </button>
         </div>
         <p className="text-5xl font-semibold text-gray-800">TailwindTemplates v2 is here</p>
+        <p className="text-0.5xl font-semibold text-gray-800">TailwindTemplates V2 is finally here! Our focus for TailwindTemplates v2 is to bring</p>
+        <p className="text-0.5xl font-semibold text-gray-800">open-source design systems to Tailwindcss. Each design system has a detailed</p>
+        <p className="text-0.5xl font-semibold text-gray-800">guideline to provide consistency and coherence within a user interface.</p>
       </div>
     </main>
   );
